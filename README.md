@@ -1,0 +1,1 @@
+Repo to demonstrate how to use private registry modules on Terraform
