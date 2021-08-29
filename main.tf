@@ -13,7 +13,7 @@ provider "aws" {
 module "prj19" {
   source  = "app.terraform.io/ATech/prj19/aws"
   version = "1.0.0"
-  name = var.name
-  prefix = var.prefix
-  region = var.region
+  name    = var.name
+  prefix  = var.prefix
+  region  = var.region
 }
